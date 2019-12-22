@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GSAP slideshow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="controls">
+      <button disabled class="prev">Prev</button>
+      <button class="next">Next</button>
+    </div>
+    <div class="slide-number">1 / 1</div>
+    <div class="slider-wrapper">
+      <div class="slide is-visible">
+        <h1 class="title">Slide 01</h1>
+      </div>
+      <div class="slide">
+        <h1 class="title">Slide 02</h1>
+      </div>
+      <div class="slide">
+        <h1 class="title">Slide 03</h1>
+      </div>
+      <div class="slide">
+        <h1 class="title">Slide 04</h1>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="gsap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
